@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLARY USING GRID</title>
+</head>
+     
+<style>
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .container{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 170px 170px 170px;
+        grid-template-rows: 110px 110px 110px;
+       
+
+    }
+
+    .box{
+
+        border-radius: 10px;
+        border: solid 2px       
+       
+    }
+
+    .box1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .box3{
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+   
+    .box5{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .box1{
+         background-image: url(https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+        background-size: 250px;
+        background-position: center;
+    }
+   
+    .box2{
+        background-image: url(https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+        background-position: center;
+        background-size: 180px;
+    }
+
+    .box3{
+        background-image: url(https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+       background-position: center;
+       background-size: 350px;
+    }
+
+    .box4{
+        background-image: url(https://img.freepik.com/premium-vector/web-development-metaphor-coding-programming-responsive-layout-internet-site-app-devices-creation-digital-software-mobile-desktop-platforms-computer-code-tablet-phone-digital-business_273625-2733.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+        background-position: center;
+        background-size: 150px;
+   }   
+
+   .box5{
+    background-image: url(https://img.freepik.com/free-photo/website-development-links-seo-webinar-cyberspace-concept_53876-120953.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+    background-position: center; 
+    background-size: 200px;
+
+   
+   }
+
+   .box6{
+    background-image: url(https://img.freepik.com/free-vector/app-development-concept-with-laptop_23-2148699364.jpg?size=626&ext=jpg&ga=GA1.1.1443788363.1709376670&semt=ais);
+    background-position: center;
+    background-size: 200px;
+   
+   }
+</style>
+    
+
+<body>
+    
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+       
+    </div>
+
+
+
+</body>
+</html>
